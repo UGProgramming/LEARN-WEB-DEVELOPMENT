@@ -10,4 +10,14 @@
     );
 
     
-      
+      document.addEventListener("DOMContentLoaded", 
+                               function(){
+                               document.addEventListener("backbutton", backButtonHandler);
+                               }
+                               
+                               );
+
+function backButtonHandler(event){
+event.preventDefault();
+window.close();
+}
