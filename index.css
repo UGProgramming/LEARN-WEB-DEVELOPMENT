@@ -828,3 +828,48 @@ font-size: 70px;
   cursor: pointer;
     }
 }
+
+
+
+
+
+
+
+/* Styles for the button */
+#continueButton {
+    display: block;
+    margin: 10px auto; /* Center the button horizontally */
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Styles for the paragraph */
+.hidden-message p {
+    font-size: 16px;
+    margin-bottom: 10px; /* Add spacing below the paragraph */
+}
+
+/* Media query for landscape orientation */
+@media screen and (orientation: landscape) {
+    /* Hide content when in landscape orientation */
+    body {
+        display: none;
+    }
+
+    /* Show hidden message */
+    .hidden-message {
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    /* Adjust spacing for the button */
+    #continueButton {
+        margin-top: 20px; /* Adjust spacing from the paragraph */
+    }
+}
