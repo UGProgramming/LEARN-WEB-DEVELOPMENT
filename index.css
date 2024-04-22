@@ -837,30 +837,14 @@ font-size: 70px;
 
 /* Styles for the button */
 #continueButton {
-    display: block;
-    margin: 10px auto; /* Center the button horizontally */
-    padding: 10px 20px;
-    background-color:whitesmoke;
-    color: black;
-
-
-    border: none;
-  border:2px solid Gold;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-  text-decoration:none;
+    display:none;
+    
 }
 
-#continueButton:visited,#continueButton:active{
-  opacity:0.4;
-}
+
 
 /* Styles for the paragraph */
-.hidden-message p {
-    font-size: 16px;
-    margin-bottom: 10px; /* Add spacing below the paragraph */
-}
+
 
 /* Media query for landscape orientation */
 @media screen and (orientation: landscape) {
@@ -868,6 +852,23 @@ font-size: 70px;
     body {
         display: none;
     }
+  #continueButton{
+    display:block;
+    margin: 10px auto; /* Center the button horizontally */
+    padding: 10px 20px;
+    background-color:whitesmoke;
+    color: black;
+    border: none;
+  border:2px solid Gold;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  text-decoration:none;
+  }
+
+  #continueButton:visited,#continueButton:active{
+  opacity:0.4;
+}
 
     /* Show hidden message */
     .hidden-message {
@@ -875,6 +876,11 @@ font-size: 70px;
         text-align: center;
         margin-top: 20px;
     }
+
+  .hidden-message p {
+    font-size: 16px;
+    margin-bottom: 10px; /* Add spacing below the paragraph */
+}
 
     /* Adjust spacing for the button */
     #continueButton {
