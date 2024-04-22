@@ -833,8 +833,9 @@ font-size: 70px;
 
 
 
-
-
+.hidden-message {
+        display: none;
+}
 /* Styles for the button */
 #continueButton {
     display:none;
