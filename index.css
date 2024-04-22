@@ -840,12 +840,20 @@ font-size: 70px;
     display: block;
     margin: 10px auto; /* Center the button horizontally */
     padding: 10px 20px;
-    background-color: #4CAF50;
-    color: white;
+    background-color:whitesmoke;
+    color: black;
+
+
     border: none;
+  border:2px solid Gold;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
+  text-decoration:none;
+}
+
+#continueButton:visited,#continueButton:active{
+  opacity:0.4;
 }
 
 /* Styles for the paragraph */
