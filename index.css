@@ -853,8 +853,9 @@ font-size: 70px;
     body {
         display: none;
     }
+  /*
   #continueButton{
-    display:block;
+dispaly:block;
     margin: 10px auto; /* Center the button horizontally */
     padding: 10px 20px;
     background-color:whitesmoke;
@@ -865,19 +866,41 @@ font-size: 70px;
     cursor: pointer;
     font-size: 16px;
   text-decoration:none;
+  }*/
+  #continueButton{
+    font-size:40px;
+    margin:auto;
+    border-radius:20%;
+    border:1px solid gold;
+    font-weight:500;
+    text-decoration:none;
+    padding:15px;
+
+    
   }
 
   #continueButton:visited,#continueButton:active{
-  opacity:0.4;
+  opacity:0.3;
 }
 
     /* Show hidden message */
     .hidden-message {
-        display: block;
+        display: grid;
+      position:fixed;
+      width:100vw;
+      height:100vh;
+      top:20%;
+      bottom:10%;
+      margin:auto;
+      z-index:9999;
+      color:black;
+      font-size:35;
+      font-weight:300;
+      justify-content:center;
         text-align: center;
-        margin-top: 20px;
+        
     }
-
+/*
   .hidden-message p {
     font-size: 16px;
     margin-bottom: 10px; /* Add spacing below the paragraph */
@@ -886,5 +909,5 @@ font-size: 70px;
     /* Adjust spacing for the button */
     #continueButton {
         margin-top: 20px; /* Adjust spacing from the paragraph */
-    }
+    }*/
 }
