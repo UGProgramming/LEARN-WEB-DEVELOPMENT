@@ -7,9 +7,12 @@ window.close();
 });
 
 
-document.getElementById('continueButton').addEventListener('click', function() {
+document.querySelector('.pfade').addEventListener('click', function() {
     // Hide the hidden message
-    document.querySelector('.hidden-message').style.display = 'none';
+    document.querySelector('.complete-page').style.display = 'block';
     // Display the body content
-    document.querySelector('body').style.display = 'block';
+    document.querySelector('.instruction').style.display = 'none';
+document.querySelector('.phone-rotate').style.display = 'none';
+document.querySelector('.pfade').style.display = 'none';
+    
 });
