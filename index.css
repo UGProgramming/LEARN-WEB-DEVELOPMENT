@@ -843,7 +843,7 @@ font-size: 70px;
   margin:auto;
   Z-index:9999;
   color:black;
-  font-size:25px;
+  font-size:20px;
   font-weight:300;
   justify-content:center;
   text-align:center;
@@ -855,11 +855,10 @@ instruction{
 text-decoration:underline;
   text-decoration-color:gold;
   text-decoration-thickness:0.7px;
-  font-size:15px;
+  font-size:10px;
 }
 .phone-rotate{
-width:2
-  15%;
+width:15%;
   margin:auto;
   background-color:whitesmoke;
   border:1px solid gold;
@@ -874,9 +873,9 @@ border-radius:50%;
   margin:auto;
   border-radius:10%;
   border:1px solid gold;
-  font-weight:500;
+  font-weight:300;
   text-decoration:none;
-  padding:15px;
+  padding:5px;
     
 }
 
