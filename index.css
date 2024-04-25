@@ -839,7 +839,7 @@ font-size: 70px;
   width:100vw;
   height:100vh;
   top:20%;
-  bottom:10;
+  bottom:10%;
   margin:auto;
   Z-index:9999;
   color:black;
@@ -855,12 +855,14 @@ instruction{
 text-decoration:underline;
   text-decoration-color:gold;
   text-decoration-thickness:0.7px;
-  font-size:25px;
+  font-size:15px;
 }
 .phone-rotate{
 width:20%;
   margin:auto;
-  
+  background-color:whitesmoke;
+  border:1px solid gold;
+  padding:15px;
 }
 /* Styles for the button */
 .pfade{
