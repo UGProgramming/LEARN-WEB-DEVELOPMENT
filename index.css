@@ -833,81 +833,65 @@ font-size: 70px;
 
 
 
-.hidden-message {
+.slo {
         display: none;
+  position:fixed;
+  width:100vw;
+  height:100vh;
+  top:20%;
+  bottom:10;
+  margin:auto;
+  Z-index:9999;
+  color:black;
+  font-size:35px;
+  font-weight:300;
+  justify-content:center;
+  text-align:center;
 }
-/* Styles for the button */
-#continueButton {
-    display:none;
-    
-}
-
 
 
 /* Styles for the paragraph */
+instruction{
+text-decoration:underline;
+  text-decoration-color:gold;
+  text-decoration-thickness:0.7px;
+  font-size:25px;
+}
+.phone-rotate{
+width:20%;
+  margin:auto;
+  
+}
+/* Styles for the button */
+.pfade{
+    display:none;
+  font-size:22px;
+  margin:auto;
+  border-radius:10%;
+  border:1px solid gold;
+  font-weight:500;
+  text-decoration:none;
+  padding:15px;
+    
+}
+
+.pfade:active,.pfade:visited{
+  opacity:0.3;
+}
+
+
 
 
 /* Media query for landscape orientation */
 @media screen and (orientation: landscape) {
-    /* Hide content when in landscape orientation */
-    body {
-        display: none;
-    }
-  /*
-  #continueButton{
-dispaly:block;
-    margin: 10px auto; /* Center the button horizontally */
-    padding: 10px 20px;
-    background-color:whitesmoke;
-    color: black;
-    border: none;
-  border:2px solid Gold;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-  text-decoration:none;
-  }*/
-  #continueButton{
-    font-size:40px;
-    margin:auto;
-    border-radius:20%;
-    border:1px solid gold;
-    font-weight:500;
-    text-decoration:none;
-    padding:15px;
-
-    
-  }
-
-  #continueButton:visited,#continueButton:active{
-  opacity:0.3;
+.complete-page{
+display:none;
+  
 }
-
-    /* Show hidden message */
-    .hidden-message {
-        display: grid;
-      position:fixed;
-      width:100vw;
-      height:100vh;
-      top:20%;
-      bottom:10%;
-      margin:auto;
-      z-index:9999;
-      color:black;
-      font-size:35;
-      font-weight:300;
-      justify-content:center;
-        text-align: center;
-        
-    }
-/*
-  .hidden-message p {
-    font-size: 16px;
-    margin-bottom: 10px; /* Add spacing below the paragraph */
+.instruction,.phone-rotate,.pfade{
+  display:block;
 }
-
-    /* Adjust spacing for the button */
-    #continueButton {
-        margin-top: 20px; /* Adjust spacing from the paragraph */
-    }*/
+.slo{
+  display:grid;
+}
 }
