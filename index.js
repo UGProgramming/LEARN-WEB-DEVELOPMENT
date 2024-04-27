@@ -1,3 +1,6 @@
+
+
+
 window.addEventListener('backbutton'
 , 
 () => {
@@ -5,6 +8,12 @@ event.PreventDefault();
 window.close();
 
 });
+
+window.addEventListener("offline", (event) => {
+  alert("The network connection has been lost.");
+});
+
+
 
 
 document.querySelector('.pfade').addEventListener('click', function() {
