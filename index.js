@@ -9,6 +9,11 @@ window.close();
 
 });
 
+window.addEventListener("loaderror", (event) => {
+  alert("The network connection has been lost2.");
+});
+
+
 window.addEventListener("offline", (event) => {
   alert("The network connection has been lost.");
 });
